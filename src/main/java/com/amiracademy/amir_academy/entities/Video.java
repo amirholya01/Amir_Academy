@@ -22,6 +22,7 @@ public class Video {
     private String title;
     private String description;
     private double size;
+    private String contentType;
     @NotBlank(message = "video url is required")
     @NotNull(message = "video url can not be empty")
     private String videoUrl;
